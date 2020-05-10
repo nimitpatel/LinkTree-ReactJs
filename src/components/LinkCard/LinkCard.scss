@@ -1,0 +1,37 @@
+.links {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  //flex-grow: 1;
+  margin: 15px;
+
+  .link {
+    width: 75%;
+    height: max-content;
+    text-decoration: none;
+    border: 2px solid hsl(142, 100%, 59%);
+    box-shadow: 4px 4px 0 hsl(142, 100%, 59%);
+    padding: 10px;
+    margin: 10px;
+
+    p {
+        padding: 5px;
+      text-transform: capitalize;
+      color: #7a7a7a;
+    }
+
+    h3 {
+        padding: 5px;
+      text-transform: capitalize;
+      color: hsl(142, 100%, 59%);
+    }
+
+    @media screen and (max-width: 720px) {
+        width: 100%;
+    }
+  }
+    @media screen and (max-width: 720px) {
+        width: 100%;
+    }
+}

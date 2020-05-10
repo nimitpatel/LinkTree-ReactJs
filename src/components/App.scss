@@ -1,0 +1,31 @@
+html,
+body {
+  box-sizing: border-box;
+  background-color: hsl(0, 0, 0);
+
+  &::-webkit-scrollbar {
+      height: 0.5em !important;
+      width: 0.5em !important;
+  }
+
+  &::-webkit-scrollbar-track {
+      background: transparent; 
+  }
+
+  &::-webkit-scrollbar-thumb {
+      background: rgba($color: hsl(142, 100%, 59%), $alpha: 0.75); 
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+      background: hsl(142, 100%, 59%); 
+  }
+}
+
+.app {
+    min-height: 90vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+}

@@ -1,0 +1,51 @@
+.user-info {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+
+    .user {
+        width: 75%;
+        display: flex;
+        justify-content: space-around;
+        border: 2px solid hsl(142, 100%, 59%);
+        padding: 15px;
+        //margin: 10px;
+
+    .profile {
+        img {
+            width: 100px;
+            border: 2px solid hsl(142, 100%, 59%);
+            border-radius: 50%;
+        }
+    }
+
+    .info {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+
+        h1 {
+            color: hsl(142, 100%, 59%);
+        }
+
+        .social {
+            width: 175px;
+            display: flex;
+            //justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 10px 0;
+
+            a {
+                padding: 5px;
+            }
+        }
+    }
+    @media screen and (max-width: 720px) {
+        width: 100%;
+    }
+    }
+    @media screen and (max-width: 720px) {
+        width: 100%;
+    }
+}
